@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+
+html, body {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+body {
+background-color: #222;
+resize: none; 
+overflow-x: hidden; 
+}
+
+body * {
+font-family: "Inter", sans-serif;
+color: white;
+}
+
+header{
+    width: 100%;
+    height: 170px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-image: url(imagens/logo\ cafeteria.png);
+}
+
+.content{
+    width: 100%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.logo {
+    margin: auto;
+    margin-top: -10px;
+    display: block;
+}
+
+#menu nav{
+    position: fixed;
+    width: 100%;
+}
+
+#menu nav ul{
+    list-style: none;
+    background: rgba(red, green, blue, alpha);
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    transition: 1s;
+}
+
+#menu nav.balck ul{
+    background: #000;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.pilao{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+img {
+    position: absolute;
+    margin: auto;
+    margin-left: 100px;
+    left: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+
+#cafe_pilao p {
+   margin: auto;
+   text-align: center;
+}
+
+#cafe_pilao h1 {
+    margin: auto;
+    text-align: center;    
+}
+
+#texto{
+    padding: 30px;
+}
+
+.subtotal p {
+    margin: auto;
+    display: inline;
+    padding: 100px;
+}
+
+.entrega p{
+    padding: 10px;
+}
+
+.endereço {
+    padding: 10px;
+    background-color:  rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.total h1 {
+    margin: auto;
+    display: inline;
+}
+
+.preco {
+    color: #8a8a8a;
+}
+
+
+.compra{
+    margin: auto;
+    margin-left: 50px;
+    color: green;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(5, 5, 5, 0.3);
+    background-color: #082032;
+    border-radius: 10px;
+}
+
+textarea {
+    box-shadow: 10px 10px 10px rgba(5, 5, 5, 0.7);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+
+.info h1{
+    margin: auto;
+    display: inline-block;
+    padding: 100px;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: -75px;
+
+}
+
+#p1{
+    margin: auto;
+    margin-top: -95px;
+    margin-left: 1535px;
+}
+
+#p2 {
+    margin: auto;
+    margin-top: -40px;
+    margin-left: 970px;
+}
+
+#p3 {
+
+    margin: auto;
+    margin-top: -40px;
+    margin-left: 330px;
+}
+
+
